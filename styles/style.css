@@ -301,4 +301,12 @@
   .section-gallery {
     grid-template-columns: 1fr;
   }
+
+  /* .section-what {
+    grid-column: span 2;
+  } */
+
+  .article-list__section-what {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
