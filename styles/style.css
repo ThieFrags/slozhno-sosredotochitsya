@@ -44,7 +44,8 @@
 .cover {
   display: grid;
   padding: clamp(10px, 2.545vw + 0.029rem, 20px);
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone {
