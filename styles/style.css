@@ -21,7 +21,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
@@ -129,15 +129,16 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--third-color);
+  outline: 1px solid var(--secondary-color-state);
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--secondary-color-state);
+  border-bottom: 1px solid var(--third-color);
   outline: none;
 }
 
 .header__theme-menu-button_active {
+  outline: 1px solid var(--third-color);
   pointer-events: none;
 }
 
@@ -210,6 +211,10 @@
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 10px;
+}
+
+.title-list {
+  font-weight: 400;
 }
 
 .section-why__title {
